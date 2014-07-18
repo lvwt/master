@@ -1,0 +1,320 @@
+*{
+	margin: 0;
+	padding:0;
+	font-weight: normal;
+	outline: none;
+}
+
+ul,li,ol,i,b,strong,em{
+	list-style: none;
+	font-weight: normal;
+	font-style: normal;
+}
+body{
+	font-size: 12px;
+    font-family: "宋体";
+	background: #fff; 
+} 
+h1,h2,h3,h4,h5,h6{
+	font-size: 12px;
+	font-style: normal;
+}
+a:visited,
+a:link,
+a:active,
+a:hover{
+	text-decoration: none;
+	color: #000;
+}
+.fleft{
+	float: left;
+}
+.fright{
+	float: right;
+}
+.clear,
+.flclear:after,
+.school_survey ul li:after,
+.score_list ul:after{
+	clear: both;
+	display: block;
+	visibility: hidden;
+	font-size: 0;
+	height: 0;
+	content: "";
+}
+
+/*头部*/
+.headtop{
+	background: #21649c;
+	height: 102px;
+	text-align: center;
+	padding-top: 15px;
+}
+
+.footer{
+	font-family: "微软雅黑";
+	height: 57px;
+	line-height: 57px; 
+	text-align: center;
+	color: #fff;
+	font-size: 16px;  
+	background:-moz-linear-gradient(bottom left,#1e6080,#257c8e);
+	background:-webkit-linear-gradient(bottom left,#1e6080,#257c8e);
+}
+.footer i{
+	display: inline-block;
+	width: 28px;
+	height: 28px;
+	background: url("../image/i_phone.png") no-repeat;
+	vertical-align: middle;
+	margin: 0 5px 0 0;
+}
+/*登录*/
+.login_box{
+	width: 80%;
+	margin: 80px auto 200px; 
+}
+.login_box ul li{
+	margin-top: 15px;
+}
+.login_box input{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	vertical-align: middle;
+	border: 0;
+	border-bottom: solid 2px #28699f;
+	padding-left: 20px;
+	color: #2e2e2e;
+}
+.username{
+	background: url("../image/i_person.png") no-repeat 0 center;
+}
+.password{
+	background: url("../image/i_password.png") no-repeat 0 center;
+}
+a.submit_btn,
+a:active.submit_btn{
+	display: block;
+	font-size: 14px;
+	width: 100%;
+	height: 43px;
+	line-height: 43px;
+	vertical-align: middle;
+	text-align: center;
+	text-decoration: none;
+	background: -moz-linear-gradient(#398fc7,#25689f);   
+	background: -webkit-linear-gradient(#398fc7,#25689f);
+	color: #fff;
+	border-radius: 5px 5px 0 0;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+	margin-top: 30px;
+}
+
+/*首页*/
+.nav_menu{
+	background: #398fc7; 
+	line-height: 32px;
+	vertical-align: middle;
+	border-top: solid 3px #9cd70e;
+	text-align: center;
+	padding: 4px 0;
+}
+.nav_menu a,
+.nav_menu a:active{
+	display: inline;
+	border-right: solid 1px #fff;
+	color: #fff;
+	font-size: 14px; 
+	padding: 0 5px;
+}
+.banner img{
+	width: 100%;
+	height: 410px;
+	border: 0;
+}
+.s_title{ 
+	font-family: "微软雅黑";
+	height: 40px;
+	line-height: 40px;
+	vertical-align: middle;
+	background: url(image/i_title.png) no-repeat 10px center #298cbe;
+	padding-left: 30px;
+	color: #fff;
+	font-size: 14px;
+	position: relative;
+}
+.s_title a{
+	position: absolute;
+	right: 30px;
+	top: 0;
+	color: #fff;
+}
+.s_list{
+	padding:10px 0;
+}
+.s_list ul li{
+	list-style-type: disc;
+	list-style-position: inside;
+	padding-left: 20px;
+}
+.s_list ul li a{
+	display: inline-block;
+	width: 97%;
+	height: 24px;
+	line-height: 24px;
+	vertical-align: middle;
+	overflow: hidden;
+}
+.sch_info{
+	padding:10px 15px;
+}
+.sch_info p img{
+	display: inline-block;
+	width: 113px;
+	height: 75px;
+	border: 0;
+	margin: 0 5px 5px 0;
+}
+.sch_info span{
+	display: block;
+	text-indent: 26px;
+	line-height: 22px;
+}
+/*学校展示*/
+.sec_title{
+	padding: 8px 0;
+	text-align: center;
+	font-size: 14px;
+	color: #21649c;
+	background: #e6e6e6;
+	border-top: solid 1px #fff;
+}
+.school_list ul li{
+	float: left;
+	width: 44%;
+	border-top: solid 2px #21649c;
+	padding: 20px 3% 0;
+}
+.school_list ul li:nth-child(1),
+.school_list ul li:nth-child(2),
+.school_survey ul li:nth-child(1),
+.school_survey ul li:nth-child(2){
+	border: 0;
+}
+.school_list ul li img{
+	width: 100%;
+	height: 100%;
+	border: 0;
+	vertical-align: top;
+}
+.school_list ul li span{
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	padding: 10px 0;
+}
+
+/*学校概况*/
+.school_survey{
+	padding: 0 0 20px;
+}
+.school_survey ul li{
+	width: 50%;
+	float: left;
+	border-top: solid 2px #21649c;
+	position: relative;
+	margin: 10px 0 0;
+}
+.school_survey ul li img,
+.teach_detail_img{ 
+	display: inline-block;
+	width: 110px;
+	height: 110px;
+	padding: 4px;
+	border: solid 1px #dbdbdb; 
+}
+.school_survey ul li img{
+	position: absolute; 
+	top: 10px;
+	left: 10px;
+}
+.school_survey ul li span{ 
+	display: inline-block; 
+	float: left; 
+	width: 100%;
+	height: 120px;
+	line-height: 20px;
+	color: #2e2e2e;
+	padding-top: 10px;
+	overflow: hidden;
+}
+.school_survey ul li span p{
+	margin-left: 140px;
+}
+.school_survey ul li span p:first-child{
+	color: #21649c;
+	font-size: 14px;
+	font-weight: bold;
+} 
+
+/*师资队伍-详情页*/
+.teach_detail{
+	padding: 0 15px; 
+	text-align: center;
+}
+.teach_detail h1{
+	color: #21649c;
+	font-size: 14px;
+	font-weight: 700;
+	margin: 30px 0 15px;
+}
+.teach_detail span{
+	display: block;
+	font-size: 14px;
+	color: #2e2e2e;
+	line-height: 22px; 
+	text-align: left;
+	text-indent: 26px;
+	padding: 10px 20px 30px;
+}
+
+/*成绩查询*/
+.scorehead{
+	text-align: center;
+	padding:20px 0;
+}
+.score_list{
+	width: 92%;
+	height: 100%;
+	margin: 0 auto 30px;
+} 
+.score_list ul:first-child,
+.score_list ul.scoreul{
+	line-height: 30px;
+}
+.score_list ul li{
+	float: left;
+	width: 24.5%;
+	height: 30px;
+	text-align: center;
+	margin: 0 0 -1px -1px;
+	padding: 10px 0;
+	border: solid 1px #21649c;
+}
+.score_list ul.scoreul li:first-child{
+	line-height: 18px;
+}
+.news_list{
+	margin: 10px 15px 15px;
+}
+.news_list ul li{
+	list-style: disc;
+	list-style-position: inside;
+	width: 100%;
+	height: 26px;
+	line-height: 26px;
+	vertical-align: middle; 
+	overflow: hidden;
+}

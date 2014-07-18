@@ -1,0 +1,271 @@
+﻿@media all and (max-width: 999px) {
+  .teacher_info ul:after,
+  .teacher_info .title:after,
+  .serviceitem .title:after,
+  .news_info .title:after,
+  .membership .title:after,
+  .teacher_list ul li:after{
+    display:block; 
+    clear:both; content:""; 
+    visibility:hidden; 
+    height:0; 
+    overflow:auto; 
+    min-width:0px; 
+    max-width:0px; 
+    line-height:0px; 
+    border-collapse:collapse; 
+    border-spacing:0; 
+    border:medium none; 
+    font-size:0px; 
+    zoom:1;
+  } 
+  .center_page{max-width:640px;width:100%;margin:0 auto;}
+  .top_page,
+  .pc_footer,
+  .share_title em{
+    display: none
+  }
+  .head_page{
+    background: none
+  }  
+  .teacher_info .title,
+  .serviceitem .title,
+  .news_info .title,
+  .membership .title{
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    padding-left: 30px;
+    background: #84aba8;
+    box-shadow: 0px 2px 15px rgba(0,0,0,0.5)
+  }
+  .teacher_info .title h1,
+  .serviceitem .title h1,
+  .news_info .title h1,
+  .membership .title h1{
+    display: inline-block;
+    font-size: 1.5em;
+    line-height: 40px; 
+  }  
+  .teacher_info .title a,
+  .serviceitem .title a,
+  .news_info .title a,
+  .membership .title a{
+    display: inline-block; 
+    padding:0 40px;
+    float: right;
+    color: #fff;
+    margin-right: 20px;
+  }
+  .news_info .list ul li,
+  .membership .list ul li{
+    text-indent: 2em;
+    text-align: left;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle; 
+  }
+  .news_info .list a,
+  .membership .list a{
+    font-size: 1.25em;
+    color: #000; 
+  } 
+  .teacher_info ul{
+    padding:15px 10px 20px; 
+  } 
+  .teacher_info ul li{
+    float: left;
+    margin: 10px 0 0 20px;
+  }
+  .serviceitem ul {
+    padding:20px 0;
+  }
+  .serviceitem ul li{
+    font-size: 1.25em;
+    color: #000;
+    line-height: 26px;
+    text-align: left;
+    text-indent: 2em;
+  }
+  .head_page{
+    text-align: center; 
+    border-bottom: solid 4px #7c7e7e;
+  }
+  .head_page span{
+    margin: 4px 0;
+    font-size: 0.875em;
+    display: block; 
+  }
+  .head_page img{
+    max-width: 30%;
+    max-height: 30%;
+  }
+  .nav{
+    text-align: center;
+    font-size: 1.05em; 
+  }  
+  .nav a,
+  .nav a:visited{
+    display: inline-block;
+    color: #000;
+    margin:10px 8px 0;
+  }
+
+  .index_banner{
+    width: 100%;
+    height: 300px;
+    background: #527a75;
+    margin: 10px auto 0;
+  } 
+  .ph_footer{
+    height: 60px;
+    line-height: 60px;
+    vertical-align: middle;
+    background: #a8ccce; 
+    font-size: 1.5em;
+    color: #000;
+    text-align: center;
+  }
+  .ph_footer img{
+    width: 42px;
+    height: 42px;
+    vertical-align: middle;
+    margin:0 10px 0 20px;
+  }
+
+  /*名师风采*/
+  .share_title{
+    background: #0c2e56;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.75em;
+    color: #fff;
+    text-align: center;
+    margin: 15px 0 0 ;
+  }
+  .teacher_list ul li{
+    height: 100%;
+    padding:10px 0;
+    border-bottom: solid 1px #c8c8c8;
+    background: #f5f5f5;
+  }
+
+  .teacher_list a,
+  .teacher_list a:visited{
+    display: block;  
+  } 
+  .teacher_list ul li img{
+    display: block;
+    max-width: 50%;
+    max-height: 50%;
+    float: left;
+    margin: 0 20px;
+  }
+  .teacher_list ul li span{
+    display: block;
+    float: left; 
+    width: 70%;  
+    line-height: 24px;  
+    color:#505050;
+    font-size: 14px;
+  }
+  .teacher_list ul li em{
+    display: block;
+    color:#000; 
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  .service_list ul li{
+    background: url(../image/bottom_line.png) repeat-x bottom;
+    list-style: disc;
+    list-style-position: inside;
+    font-size: 14px;
+    color: #505050;
+    padding:10px 20px;
+  }
+  .service_list ul li em{
+    display: inline-block;
+    font-size: 18px;
+  }
+ .service_list ul li span{
+    display: block; 
+    line-height: 24px;
+    padding: 5px 10px 15px;
+  }
+  .newsinfo_list ul li{
+    background: url(../image/bottom_line.png) repeat-x bottom;
+    padding:20px 10px; 
+    font-size: 1.25em;
+    color: #505050;
+  }
+  .newsinfo_list ul li span{
+    display: inline-block; 
+  }
+  .newsinfo_list ul li em{
+    display: block;
+    text-align: right;
+    margin:5px 10px 0; 
+  }
+  .newsinfo_details .newstitle{
+    text-align: center;
+  }
+  .newsinfo_details .newstitle h1{
+    font-size: 1.75em;
+    margin: 10px;
+  }
+  .newsinfo_details .newstitle span{
+    display: block; 
+  }
+  .newsinfo_details .newstitle strong{
+    margin: 0 10px;
+  } 
+  .newsdetails p{
+    text-align: center;
+    margin: 20px 0;
+  }
+  .newsdetails p img{
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .newsdetails span{
+    display: block;
+    text-indent: 2em;
+    line-height: 24px;
+    font-size: 14px;
+    padding: 0 20px 20px;
+  }
+
+  .teach_head img{
+    max-width: 100%;
+    max-height: 100%;
+    border: 0;
+    margin: 10px;
+  }
+  .teach_message{
+    width: 60%;
+    margin-top: 10px;
+  }
+  .teach_message em{
+    font-size: 20px;
+    color: #000;
+    display: block;
+  }
+  .teach_message ul li{
+    font-size: 14px;
+    color: #505050;
+    line-height: 18px; 
+    margin-top: 8px;
+  }
+  .teach_introduction{
+    padding:10px ;
+    font-size: 14px;
+    line-height: 18px;
+    text-indent: 2em;
+  }
+
+
+
+
+
+
+} 
